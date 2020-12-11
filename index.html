@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MasterChef</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>MasterChef Restaurant</h1></a>
+            <p>
+              <img src="images/star-k-logo.png">
+              <span>Gordon Ramsay Certified</span>
+            </p>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>777-777-7777</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+<div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:777-777-7777">
+    <span class="glyphicon glyphicon-earphone"></span>
+    777-777-7777
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="Images/masterchef-sm.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    </div>
+    <div id="home-tiles" class="row" >
+      <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="menu-categories.html">
+        <div id="menu-tile">
+          <span>
+            Menu
+          </span>
+        </div>
+
+      </a>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="single-category.html" >
+        <div id="specials-tile">
+          <span>
+            Specials
+          </span>
+        </div>
+
+      </a>
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/2v72Zueb8JvH71hG9" target="_blank">
+          
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115645.2334846299!2d55.066492658203124!3d25.07091920000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f1398939333ff%3A0x2d526b52e8caff5!2sMasterChef%2C%20the%20TV%20Experience%20Restaurant!5e0!3m2!1sen!2sca!4v1604584080834!5m2!1sen!2sca" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <span>Map</span>
+          </div>
+        </a>
+      
+      </div>
+      
+
+    </div>
+  </div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Mon-Thurs: 11:15AM - 11:00PM<br>
+          Fri: 11:15AM - 2:3AM<br>
+          Saturday&Sunday: 10AM - 12AM<br>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          Al Marsa St - Dubai Marina - Dubai - United Arab Emirates<br>
+          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <span>Testimonials:</span>
+          <p>"Tastes amazing! I ordered the Ramsay burger"</p>
+          <p>"Creative dishes"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright MasterChef 2020</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
